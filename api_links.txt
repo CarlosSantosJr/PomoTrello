@@ -1,0 +1,21 @@
+BOARDS:
+    GET ALL THE BOARDS:
+    https://api.trello.com/1/members/me/boards?fields=name,closed&key=${key}&token=${token}
+
+
+
+
+
+
+
+LISTS:
+    GET ALL THE LISTS ID's IN A BOARD
+    https://api.trello.com/1/boards/${boardId}/lists?key=${key}&token=${token}
+
+
+    
+
+
+CARDS:
+    GET ALL THE CARDS IN A LIST
+    https://api.trello.com/1/lists/${listId}/cards?key=${key}&token=${token}
